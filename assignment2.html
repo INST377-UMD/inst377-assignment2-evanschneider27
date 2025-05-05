@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INST377 - Assignment 2</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header>
+    <h1>INST377 - Assignment 2</h1>
+    <nav>
+      <ul class="navbar">
+        <li><a href="assignment2.html">Home</a></li>
+        <li><a href="stocks.html">Stocks</a></li>
+        <li><a href="dogs.html">Dogs</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Here are some different activities we can try!</h2>
+    <div class="button-container">
+      <button class="custom-button" onclick="location.href='stocks.html'">Stocks</button>
+      <button class="custom-button" onclick="location.href='dogs.html'">Dogs</button>
+    </div>
+
+    <section id="quote-box" class="quote-box">
+      <h3>Quote of the Page Load</h3>
+      <p id="quote-text">Loading...</p>
+    </section>
+
+    <section id="audio-instructions" class="audio-box">
+      <h3>In this web page there are options to Navigate using Audio!</h3>
+      <p>Ensure your Mic is enabled to use this feature</p>
+      <ul>
+        <li>Say: "Navigate to &lt;page&gt;"</li>
+        <li>Say: "Change the color to &lt;color&gt;"</li>
+        <li>Say: "Hello"</li>
+      </ul>
+      <button onclick="startListening()">Turn On Listening</button>
+      <button onclick="stopListening()">Turn Off Listening</button>
+    </section>
+  </main>
+</body>
+</html>
