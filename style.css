@@ -1,0 +1,106 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  background-color: #444;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #666;
+}
+
+.custom-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#dog-carousel, #breed-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dog-img {
+  width: 150px;
+  height: auto;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+#reddit-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#reddit-table th, #reddit-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+#reddit-table th {
+  background-color: #eee;
+}
+
+.chart-container {
+    max-width: 800px;
+    height: 400px;
+    margin: 0 auto;
+  }
+  
+  canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
